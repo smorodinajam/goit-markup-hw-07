@@ -3,9 +3,17 @@
 @import './base/common';
 @import './utils/hidden';
 
-
 @import './components/container';
 @import './components/title';
 @import './components/btn';
+@import './components/modal';
 
 @import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantages';
+@import './layouts/workarea';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/portfolio-btn';
+@import './layouts/portfolio-cards';
