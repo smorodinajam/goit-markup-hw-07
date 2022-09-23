@@ -159,11 +159,9 @@
   fill: transparent;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .input-check:checked + .check-text .icon-check {
   fill: #ffffff;
 }
-
 .check-link {
   color: var(--accent-color);
   font-size: 14px;

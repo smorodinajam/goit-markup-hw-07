@@ -3,10 +3,10 @@
   background-color: var(--hero-footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer .container {
-  display: flex;
-  align-items: baseline;
+  .container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 .footer-contacts {
   margin-right: 70px;
@@ -20,17 +20,16 @@
   letter-spacing: var(--typical-letter-spacing);
   margin-bottom: 20px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-logo:hover,
-.footer-logo:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .address-text {
   font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: var(--typical-letter-spacing);
-
   margin-bottom: 9px;
 }
 .footer-item {
@@ -42,7 +41,6 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: var(--typical-letter-spacing);
-
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -75,18 +73,18 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 .footer-soc-icon {
   fill: var(--primary-white-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-soc-link:hover .footer-soc-icon,
-.footer-soc-link:focus .footer-soc-icon {
-  fill: var(--primary-white-color);
+  .footer-soc-link:hover &,
+  .footer-soc-link:focus & {
+    fill: var(--primary-white-color);
+  }
 }
 .footer-subscription {
   margin-left: auto;
@@ -115,17 +113,16 @@
   padding: 15px 16px;
   margin-right: 12px;
   transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.subscription-input:focus {
-  outline-color: var(--accent-color);
-}
-.subscription-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  align-items: center;
-  letter-spacing: var(--typical-letter-spacing);
-
-  color: rgba(255, 255, 255, 0.6);
+  &:focus {
+    outline-color: var(--accent-color);
+  }
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: var(--typical-letter-spacing);
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 .subscription-btn {
   display: flex;
