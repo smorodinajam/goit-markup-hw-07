@@ -21,36 +21,36 @@
   </head>
 
   <body>
-    <header class="header-page section">
-      <div class="container">
-        <nav class="header-nav main-nav">
-          <a href="./index.html" class="header-logo link" lang="en"
+    <header class="header section">
+      <div class="container header__container">
+        <nav class="navigation header__navigation">
+          <a href="./index.html" class="logo header__logo logo--color-dark link" lang="en"
             ><span class="accent-logo">Web</span>Studio</a
           >
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="./index.html" class="header-link link active">Студія</a>
+          <ul class="header__list list">
+            <li class="header__item">
+              <a href="./index.html" class="header__link link active">Студія</a>
             </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link">Портфоліо</a>
+            <li class="header__item">
+              <a href="./portfolio.html" class="header__link link">Портфоліо</a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Контакти</a>
+            <li class="header__item">
+              <a href="" class="header__link link">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="auth-nav list">
-          <li class="auth-nav-item">
-            <a href="mailto:info@devstudio.com" class="auth-nav-link link">
+        <ul class="connection list">
+          <li class="connection__item">
+            <a href="mailto:info@devstudio.com" class="connection__link link">
               <svg class="button-icon" width="16px" height="12px">
                 <use href="./img/icon-contacts.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="auth-nav-item header-tel">
-            <a href="tel:+380961111111" class="auth-nav-link link">
+          <li class="connection__item">
+            <a href="tel:+380961111111" class="connection__link link">
               <svg class="button-icon" width="16px" height="12px">
                 <use href="./img/icon-contacts.svg#icon-smartphone"></use>
               </svg>
@@ -162,44 +162,44 @@
       <!--Team-->
       <section class="team section-body section">
         <div class="container">
-          <h2 class="team-title title">Наша команда</h2>
-          <ul class="team-list list">
-            <li class="team-item">
+          <h2 class="team__title title">Наша команда</h2>
+          <ul class="team__card list">
+            <li class="team__item">
               <img
                 src="./img/member-1.jpg"
-                class="team-img"
+                class="team__img"
                 alt="Чоловік"
                 width="270"
                 height="260"
               />
-              <div class="team-content">
-                <h3 class="team-title-after">Ігор Дем'яненко</h3>
-                <p class="team-text" lang="en">Product Designer</p>
-                <ul class="team-soc list">
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+              <div class="team__content">
+                <h3 class="team__title-after">Ігор Дем'яненко</h3>
+                <p class="team__text" lang="en">Product Designer</p>
+                <ul class="team__soc soc list">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -207,36 +207,42 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
-              <img src="./img/member-2.jpg" class="team-img" alt="Жінка" width="270" height="260" />
-              <div class="team-content">
-                <h3 class="team-title-after">Ольга Рєпіна</h3>
-                <p class="team-text" lang="en">Frontend Developer</p>
-                <ul class="team-soc list">
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+            <li class="team__item">
+              <img
+                src="./img/member-2.jpg"
+                class="team__img"
+                alt="Жінка"
+                width="270"
+                height="260"
+              />
+              <div class="team__content">
+                <h3 class="team__title-after">Ольга Рєпіна</h3>
+                <p class="team__text" lang="en">Frontend Developer</p>
+                <ul class="team__soc soc list">
+                  <li class="soc__item">
+                    <a href="" class="soc-link link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -244,42 +250,42 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img
                 src="./img/member-3.jpg"
-                class="team-img"
+                class="team__img"
                 alt="Чоловік"
                 width="270"
                 height="260"
               />
-              <div class="team-content">
-                <h3 class="team-title-after">Микола Тарасов</h3>
-                <p class="team-text" lang="en">Marketing</p>
-                <ul class="team-soc list">
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+              <div class="team__content">
+                <h3 class="team__title-after">Микола Тарасов</h3>
+                <p class="team__text" lang="en">Marketing</p>
+                <ul class="team__soc soc list">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -287,42 +293,42 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img
                 src="./img/member-4.jpg"
-                class="team-img"
+                class="team__img"
                 alt="Чоловік"
                 width="270"
                 height="260"
               />
-              <div class="team-content">
-                <h3 class="team-title-after">Михайло Єрмаков</h3>
-                <p class="team-text" lang="en">UI Designer</p>
-                <ul class="team-soc list">
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+              <div class="team__content">
+                <h3 class="team__title-after">Михайло Єрмаков</h3>
+                <p class="team__text" lang="en">UI Designer</p>
+                <ul class="team__soc soc list">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-soc-item">
-                    <a href="" class="team-soc-link link">
-                      <svg class="team-soc-icon" width="20" height="20">
+                  <li class="soc__item">
+                    <a href="" class="soc-link soc-link--color-light link">
+                      <svg class="soc-icon soc-icon--color-dark" width="20" height="20">
                         <use href="./img/icon-soc.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -387,65 +393,68 @@
     </main>
 
     <footer class="footer section">
-      <div class="container">
-        <div class="footer-contacts">
-          <a href="./index.html" class="footer-logo link" lang="en"
+      <div class="container footer__container">
+        <div class="contacts">
+          <a href="./index.html" class="logo contacts__logo logo--color-light link" lang="en"
             ><span class="accent-logo">Web</span>Studio</a
           >
           <address>
-            <p class="address-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <ul class="address-list list">
-              <li class="footer-item">
-                <a href="mailto:info@example.com" class="address-mail-link link"
-                  >info@example.com</a
-                >
+            <p class="contacts__address-text">м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="contacts__address-list list">
+              <li class="contacts__item">
+                <a href="mailto:info@example.com" class="mail-link link">info@example.com</a>
               </li>
               <li>
-                <a href="tel:+380991111111" class="address-tel-link link">+38 099 111 11 11</a>
+                <a href="tel:+380991111111" class="tel-link link">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-soc">
-          <b class="footer-soc-agitation">приєднуйтесь</b>
-          <ul class="footer-soc-list list">
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+          <b class="footer-soc__agitation">приєднуйтесь</b>
+          <ul class="footer-soc__list list">
+            <li class="footer-soc__item">
+              <a href="" class="soc-link soc-link--color-dark link">
+                <svg class="soc-icon soc-icon--color-light" width="20" height="20">
                   <use href="./img/icon-footer-soc.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+              <a href="" class="soc-link soc-link--color-dark link">
+                <svg class="soc-icon soc-icon--color-light" width="20" height="20">
                   <use href="./img/icon-footer-soc.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+              <a href="" class="soc-link soc-link--color-dark link">
+                <svg class="soc-icon soc-icon--color-light" width="20" height="20">
                   <use href="./img/icon-footer-soc.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20" height="20">
+              <a href="" class="soc-link soc-link--color-dark link">
+                <svg class="soc-icon soc-icon--color-light" width="20" height="20">
                   <use href="./img/icon-footer-soc.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer-subscription">
-          <b class="subscription-text">Підпишіться на розсилку</b>
-          <form class="subscription-form">
-            <input class="subscription-input" type="email" name="user-email" placeholder="E-mail" />
-            <button type="submit" class="subscription-btn btn">
+        <div class="subscription">
+          <b class="subscription__text">Підпишіться на розсилку</b>
+          <form class="subscription__form">
+            <input
+              class="subscription__input"
+              type="email"
+              name="user-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscription__btn btn">
               Підписатися
-              <svg class="icon-send" width="24" height="24">
+              <svg class="subscription__icon-send" width="24" height="24">
                 <use href="./img/icon-footer-soc.svg#icon-send"></use>
               </svg>
             </button>
